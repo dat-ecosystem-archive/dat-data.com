@@ -176,7 +176,7 @@ h2,
 h3,
 h4,
 header p { text-rendering: optimizeLegibility; }
-header h1 a { 
+header h1 a {
   background: url(../img/dat-small.png) no-repeat 4px 24px;
   background-size: 50px 58px;
   line-height: 50px;
@@ -217,7 +217,7 @@ footer ul,
 }
 nav ul li,
 .features ul li { float: left }
-nav ul li { margin: 0 0 0 55px }
+nav ul li { margin: 0 0 0 20px }
 nav ul li a { padding: 2px 4px }
 nav ul {
     position: absolute;
@@ -375,7 +375,7 @@ footer.site ul li#github a { background-image: url("../img/icn-github.png") }
     -webkit-transform: rotate(90deg);
 }
 .popover .content { padding: 15px }
-@media screen and (max-width: 1000px) and (min-width: 522px) { 
+@media screen and (max-width: 1000px) and (min-width: 522px) {
     nav { position: relative }
     nav ul {
         margin: 0 auto;
@@ -392,7 +392,7 @@ footer.site ul li#github a { background-image: url("../img/icn-github.png") }
     li.download { display: none }
     #hero { margin: 10px 0 40px }
 }
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 550px) {
     #wrapper { padding: 40px 0 }
     #wrapper > header { text-align: center }
     #hero { margin-top: 10px; margin-bottom: 10px;}
@@ -404,8 +404,8 @@ footer.site ul li#github a { background-image: url("../img/icn-github.png") }
     nav,
     .git-ribbon,
     #hero ul li .popover { display: none }
-    .features p { 
-      margin: 0 20px;
+    .features p {
+      margin: 10px 20px;
     }
     .features ul li h3 {
         line-height: 1.2em;
@@ -474,7 +474,7 @@ iframe.video {
     height: 360px;
     display: block;
 }
-@media screen and (max-width: 522px) { 
+@media screen and (max-width: 522px) {
     section#content article { padding: 0 30px 30px }
 }
 #content.narrow { max-width: 500px }
@@ -506,3 +506,12 @@ form {
 }
 .clearfix:after { clear: both }
 .clearfix { *zoom: 1 }
+#sticker {
+    display: block;
+    max-width: 100%;
+    margin: 40px 0 40px;
+    background-size: contain;
+}
+.sticker-photo {
+    width: 100%;
+}
