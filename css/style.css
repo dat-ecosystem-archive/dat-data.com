@@ -405,7 +405,7 @@ footer.site ul li#github a { background-image: url("../img/icn-github.png") }
     .git-ribbon,
     #hero ul li .popover { display: none }
     .features p {
-      margin: 0 20px;
+      margin: 10px 20px;
     }
     .features ul li h3 {
         line-height: 1.2em;
@@ -509,7 +509,7 @@ form {
 #sticker {
     display: block;
     max-width: 100%;
-    margin: 80px 0 80px;
+    margin: 40px 0 40px;
     background-size: contain;
 }
 .sticker-photo {
