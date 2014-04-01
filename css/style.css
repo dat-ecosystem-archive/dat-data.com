@@ -269,6 +269,14 @@ nav ul li a:hover { color: #000 }
     display: block;
     padding-bottom: 50px;
 }
+
+#sponsors p, #video p { text-align: center; text-transform: uppercase; }
+#sponsors { margin: 50px 0; }
+#sponsors div { width: 300px; height: 171px; display: inline-block; }
+#sponsors #sloan { background-image: url(../img/sloan.png); background-size: 300px 171px; }
+#sponsors #knight { background-image: url(../img/knight.png); background-size: 300px 171px; }
+#sponsors #usodi { background-image: url(../img/usodi.png); background-size: 300px 171px; }
+
 .features ul li p { padding: 0 55px 0 0 }
 .features ul li#performance a.vignette { background-image: url("../img/vignette-performance.svg") }
 .features ul li#components a.vignette { background-image: url("../img/tnl-components.png") }
