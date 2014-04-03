@@ -523,3 +523,10 @@ form {
 .sticker-photo {
     width: 100%;
 }
+.header h1 { line-height: 3em; }
+.features h3 { float: left; clear: right; }
+.small-links { position: relative; left: 5px; }
+.small-link { margin: 0px 5px; }
+.inline-icon { width: 24px; height: 24px; background-size: 24px; display: inline-block; }
+a.twitter { background-image: url("../img/twitter.png") }
+a.github { background-image: url("../img/github.png") }
