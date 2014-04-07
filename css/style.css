@@ -523,6 +523,8 @@ form {
 .sticker-photo {
     width: 100%;
 }
+.donate {text-align: center; margin: 10px 0 40px 0;}
+.donate img { margin-bottom: 20px;}
 .header h1 { line-height: 3em; }
 .features h3 { float: left; clear: right; }
 .features p { margin-top: 10px; }
